@@ -35,3 +35,7 @@ ul li:before {
     content: counter(my-counter-ul, square) ". "; 
     margin-right: 5px;  
 }
+
+div {
+    border:2px dotted
+}
