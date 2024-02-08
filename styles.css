@@ -11,5 +11,14 @@ p {
     background-color: lavender;
 }
 ol {
-    list-style-type: lower-alpha;
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+li {
+    counter-increment: my-counter;
+    
+}
+li:before {
+    content: counter(my-counter, lower-alpha) ". "; 
+    margin-right: 5px; 
 }
