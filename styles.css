@@ -35,7 +35,7 @@ ul li:before {
     content: counter(my-counter-ul, square); 
     margin-right: 5px;  
 }
-div {
+.profile-image {
     border: 2px dotted;
     width: 200px;
     height: 200px;
