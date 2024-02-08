@@ -22,3 +22,16 @@ li:before {
     content: counter(my-counter, lower-alpha) ". "; 
     margin-right: 5px; 
 }
+ul {
+    list-style-type: none;
+    counter-reset: my-counter-ul;  
+}
+
+ul li {
+    counter-increment: my-counter-ul;
+}
+
+ul li:before {
+    content: counter(my-counter-ul, square) ". "; 
+    margin-right: 5px;  
+}
