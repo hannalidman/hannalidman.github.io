@@ -10,3 +10,6 @@ p {
     color: darkblue;
     background-color: lavender;
 }
+ol {
+    list-style-type: lower-alpha;
+}
