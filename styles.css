@@ -12,15 +12,13 @@ p {
 }
 
 ol {
-    list-style-type: none;
     list-style-type: lower-alpha;
     counter-reset: my-counter;
 }
 
 ul {
-    list-style-type: none;
     list-style-type: square;
-    margin-bottom: 16px;
+    counter-reset: my-counter;
 }
 
 li {
