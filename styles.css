@@ -16,11 +16,6 @@ ol {
     counter-reset: my-counter;
 }
 
-ul {
-    list-style-type: square;
-    counter-reset: my-counter;
-}
-
 li {
     counter-increment: my-counter;
     margin-bottom: 8px;
