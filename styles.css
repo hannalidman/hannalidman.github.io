@@ -11,17 +11,11 @@ p {
     background-color: lavender;
 }
 
-ol {
-    list-style-type: lower-alpha;
-    counter-reset: my-counter;
-}
-
 li {
     counter-increment: my-counter;
-    margin-bottom: 8px;
+    
   }
-
-li:before {
-    content: counter(my-counter) ". "; 
+  li:before {
+    content: counter(my-counter, lower-alpha) ". "; 
     margin-right: 5px; 
   }
