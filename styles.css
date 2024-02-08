@@ -11,11 +11,3 @@ p {
     background-color: lavender;
 }
 
-li {
-    counter-increment: my-counter;
-    
-  }
-  li:before {
-    content: counter(my-counter, lower-alpha) ". "; 
-    margin-right: 5px; 
-  }
