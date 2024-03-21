@@ -38,7 +38,7 @@ ul li:before {
 .profile-image {
     border: 2px dotted;
     width: 300px;
-    height: 200px;
+    height: auto;
 }
 
 .topleft {
