@@ -47,10 +47,14 @@ ul li:before {
     font-size: 18px;
   }
 header {
-    background-color: rgb(71, 71, 68); 
+    background-color: rgb(71, 71, 68);
+    font-size: 20;
+    color: antiquewhite;
 }
 footer {
     background-color: rgb(71, 71, 68);
+    font-size: 20;
+    color: antiquewhite;
 }
   
 aside {
