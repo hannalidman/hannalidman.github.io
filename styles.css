@@ -1,6 +1,7 @@
 body {
-    background-color: ivory;
-    color: gray
+    background-color: rgb(233, 233, 228);
+    color: rgb(26, 26, 26);
+    font-family: 'Poppins', sans-serif;
 }
 h1 {
     font-size: 35px;
