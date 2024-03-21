@@ -52,9 +52,21 @@ header {
     font-size: 20;
     color: antiquewhite;
 }
-footer {
-    background-color: rgb(71, 71, 68);
-    font-size: 20;
+nav {
+    background-color: rgb(145, 145, 64);
+    font-size: 12;
+    color: antiquewhite;
+}
+
+section {
+    background-color: rgb(37, 99, 156);
+    font-size: 12;
+    color: antiquewhite;
+}
+
+article {
+    background-color: rgb(120, 42, 139);
+    font-size: 12;
     color: antiquewhite;
 }
   
@@ -66,3 +78,9 @@ aside {
     font-style: italic;
     background-color: lightgray;
   }
+
+  footer {
+    background-color: rgb(71, 71, 68);
+    font-size: 20;
+    color: antiquewhite;
+}
